@@ -7,6 +7,13 @@ cc65
 
 http://cc65.github.io/cc65
 
+CO=$(CC65_BIN)/co65
+CC=$(CC65_BIN)/cc65
+AS=$(CC65_BIN)/ca65
+AR=$(CC65_BIN)/ar65
+CL=$(CC65_BIN)/cl65
+SPRPCK=$(CC65_BIN)sprpck
+
 ## Build
 
 make all
